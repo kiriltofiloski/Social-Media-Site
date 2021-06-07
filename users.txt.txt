@@ -1,0 +1,3 @@
+Some usernames: skiper4e, stela, andre3k, bigboi, peco
+
+Password for every user is: pass

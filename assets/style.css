@@ -1,0 +1,90 @@
+:root {
+    --paleGreen: #A5DA80;
+    --lightGreen: #69BA32;
+    --darkBlue: #3855C8; 
+    --gold: #DCA320;
+    --paleBlue: #7294C6;
+    --lightBlue: #38B4EA;
+}
+
+html {
+    font-family:'Times New Roman', Times, serif;
+    background-color: var(--paleBlue);
+    color: var(--darkBlue);
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    align-self: center;
+    background-color: var(--lightBlue);
+    border-color: var(--darkBlue);
+    border-style: dashed;
+    font-size: 70px;
+    padding: 5px;
+}
+
+.box {
+    display: inline-block;
+    background-color: var(--lightBlue);
+    border-color: var(--darkBlue);
+    border-style: dashed;
+    font-size: 30px;
+    padding: 10px;
+}
+
+a, button, input[type=file] {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: var(--lightBlue);
+    border-color: var(--darkBlue);
+    color: var(--darkBlue);
+    padding: 5px;
+    text-align: center;
+}
+
+.important {
+    color: darkblue;
+}
+
+a:hover, button:hover, input[type=file] {
+    opacity: 0.7;
+}
+
+input[type=text],input[type=password], textarea, input[type=file] {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    color: var(--darkBlue);
+    font-size: 25px;
+}
+
+*::placeholder {
+    font-size: 15px;
+}
+
+#addPost textarea {
+    width: 500px;
+    height: 200px;
+}
+
+#addPost input[type=file] {
+    width: 350px;
+}
+
+#post {
+    width: 100%;
+}
+
+#loneLabel {
+    font-size: 25px;
+    color: var(--darkBlue);
+}
